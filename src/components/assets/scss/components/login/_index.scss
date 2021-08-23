@@ -1,0 +1,21 @@
+.login {
+    background: url("./../../../images/login-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &-card-title {
+        height: 100px;
+        margin-bottom: 10px;
+        display: flex !important;
+        justify-content: center;
+        img {
+            height: 100%;
+            width: auto;
+        }
+    }
+
+    &-form {
+        margin: 20px 0 0 !important;
+    }
+}

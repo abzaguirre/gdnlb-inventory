@@ -1,0 +1,14 @@
+.gd-container {
+    height: 730px;
+    padding: 20px 0;
+}
+
+Button {
+    background-color: rgb(6, 175, 34) !important;
+    border-radius: 10px !important;
+    &:hover {
+        border-color: rgb(6, 175, 34) !important;
+        background-color: #ffff !important;
+        color:rgb(6, 175, 34) !important
+    }
+}
